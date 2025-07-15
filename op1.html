@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using-Abstract</title>
+    <link rel=" icon" href="https://avatars.githubusercontent.com/u/18014107?s=280&v=4">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .A {
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 7%;
+            height: 90px;
+        }
+
+        .re {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10px;
+        }
+
+        .le {
+            display: flex;
+            align-items: center;
+        }
+
+        .re input {
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 22px;
+        }
+
+        .is {
+            background-color: black;
+            color: white;
+            border-color: white;
+        }
+
+        button {
+            background-color: blue;
+            border-radius: 10px;
+            border-color: blue;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .cont {
+            background-color: rgb(203, 203, 203);
+            padding: 80px 100px;
+            line-height: 40px;
+            font-size: 20px;
+        }
+
+        .m {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 100px 100px;
+            font-size: 20px;
+        }
+
+        .p {
+            line-height: 40px;
+            margin-left: 40px;
+        }
+
+        h2,
+        h1 {
+            line-height: 80px;
+        }
+
+        .p1 {
+            line-height: 40px;
+            margin-left: 80px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .main {
+            line-height: 40px;
+            margin-left: 150px;
+            font-size: 20px;
+            padding-bottom: 100px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container {
+            background-color: black;
+            color: white;
+            padding: 50px;
+            width: 100%;
+        }
+
+        .opt {
+            line-height: 25px;
+        }
+
+        .opt1 {
+            line-height: 25px;
+        }
+
+        .opt h3 {
+            padding: 10px 0px;
+        }
+
+        .opt1 h3 {
+            padding: 10px 0px;
+        }
+
+        .opt2 img {
+            margin-top: 150px;
+        }
+
+        .right-alt {
+            display: none;
+        }
+
+        @media screen and (max-width:400px) {
+            .re {
+                display: none;
+            }
+
+            .right-alt {
+                display: block;
+            }
+
+            .cont {
+                padding: 0%;
+            }
+
+            .m{
+                display: grid;
+                grid-template-columns: 1fr;
+                padding: 0px;
+            }
+            .main{
+                padding: 0px;
+            }
+            .content {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 0;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="A">
+        <div class="le">
+            <img src="https://avatars.githubusercontent.com/u/18014107?s=280&v=4" alt="" width="10%" height="30px">
+            <h2>Abstract | Help Center</h2>
+        </div>
+        <div class="re">
+            <input type="text" name="" id="" placeholder="Search">
+            <input type="submit" name="" id="" value="Submit a Request" class="is">
+            <button>Sign in</button>
+        </div>
+        <div class="right-alt">
+            <i class="fa-solid fa-magnifying-glass" style="font-size: 20px;"></i>
+            <i class="fa-solid fa-bars" style="font-size: 20px;"></i>
+        </div>
+    </header>
+
+    <div class="cont">
+        <h4>Abstract > Using Abstract</h4>
+        <h1>Using Abstract</h1>
+        <p>Abstract lets you manage, version, and document your designs in one place.</p>
+    </div>
+    <div class="m">
+        <div class="p">
+            <h2>Get started in Abstract</h2>
+            <ul>
+                <li>Try out Abstract</li>
+                <li>The Abstract Design Workflow</li>
+                <li>Start Working In Abstract</li>
+                <li>Practice Abstract workflow</li>
+                <li>Glossary</li>
+            </ul>
+        </div>
+        <div class="p1">
+            <h2>Using the Abstract Desktop App</h2>
+            <ul>
+                <li>Update to the newest version of Abstract</li>
+                <li>Backing Up your Work in Abstract</li>
+                <li>System requirements</li>
+                <li>Downloading the Abstract Desktop Application</li>
+                <li>The Abstract plugin</li>
+                <li>Keyboard shortcuts</li>
+            </ul>
+            <a href="">See all 13 articles</a>
+        </div>
+        <div class="p">
+            <h2>Working in Projects</h2>
+            <ul>
+                <li>Name your project</li>
+                <li>Add files to your project</li>
+                <li>Create a branch</li>
+                <li>Open untracked vs. creating a branch</li>
+                <li>Change branch status</li>
+                <li>Rename a branch</li>
+            </ul>
+            <a href="">See all 10 articles</a>
+        </div>
+        <div class="p1">
+            <h2>Commit your work</h2>
+            <ul>
+                <li>A guide to commits</li>
+                <li>Committing changes in a branch</li>
+                <li>Commit history</li>
+                <li>Troubleshoot your commits</li>
+            </ul>
+        </div>
+        <div class="p">
+            <h2>Merge your work</h2>
+            <ul>
+                <li>A Guide to Merging</li>
+                <li>Merging to the main branch</li>
+                <li>Resolve conflicts</li>
+                <li>Restore to previous commit</li>
+                <li>Merge restrictions</li>
+            </ul>
+        </div>
+        <div class="p1">
+            <h2>Work with libraries</h2>
+            <ul>
+                <li>Libraries Overview</li>
+                <li>Add a Library</li>
+                <li>Link a library</li>
+                <li>Update a library</li>
+                <li>Work with dependencies</li>
+                <li>Manage your libraries</li>
+            </ul>
+        </div>
+        <div class="p">
+            <h2>Collaborate in projects</h2>
+            <ul>
+                <li>Share your designs</li>
+                <li>Request a design review</li>
+                <li>Use collections</li>
+                <li>Sections within collections</li>
+                <li>Leave comments and annotations</li>
+                <li>Assets</li>
+            </ul>
+            <a href="">See all 8 articles</a>
+        </div>
+        <div class="p1">
+            <h2>Troubleshooting Abstract</h2>
+            <ul>
+                <li>General Troubleshooting</li>
+                <li>Troubleshoot sync errors</li>
+                <li>Resolve a pending commit</li>
+                <li>Resolve diverged branches</li>
+                <li>Previews and asset generation</li>
+                <li>Sync library components in Sketch</li>
+            </ul>
+            <a href="">See all 11 articles</a>
+        </div>
+    </div>
+    <div class="main">
+        <h1>Abstract Best Practices</h1>
+        <h3>Main</h3>
+        <ul>
+            <li>Define the main branch</li>
+        </ul>
+        <h3>Branching</h3>
+        <ul>
+            <li>Set up a new branch</li>
+            <li>Working in a branch</li>
+            <li>Prepare your branch for merging</li>
+        </ul>
+        <h3>Committing</h3>
+        <ul>
+            <li>When to commit</li>
+            <li>Committing — Part 2</li>
+        </ul>
+        <h3>Merging</h3>
+        <ul>
+            <li>Update from the main branch before merging</li>
+            <li>Resolve merge conflicts</li>
+            <li>Clean up your branch before merging</li>
+        </ul>
+        <h3>Design systems</h3>
+        <ul>
+            <li>Libraries</li>
+        </ul>
+    </div>
+    <footer class="container">
+        <div class="content">
+            <div class="opt">
+                <h3>Abstract</h3>
+                <h4>Start Trial</h4>
+                <h4>Pricing</h4>
+                <h4>Download</h4>
+            </div>
+            <div class="opt1">
+                <h3>Resources</h3>
+                <h4>blog</h4>
+                <h4>Help Center</h4>
+                <h4>Release Notes</h4>
+                <h4>Status</h4>
+            </div>
+            <div class="opt1">
+                <h3>Community</h3>
+                <h4>Twitter</h4>
+                <h4>LinkedIn</h4>
+                <h4>Facebook</h4>
+                <h4>Dribbble</h4>
+                <h4>Podcast</h4>
+            </div>
+            <div class="opt1">
+                <h3>Company</h3>
+                <h4>About Us</h4>
+                <h4>Carrers</h4>
+                <h4>Legal</h4>
+                <h3>Contact US</h3>
+                <a href="" style="color: white; text-decoration: none;">info@goabstract.com</a>
+            </div>
+            <div class="opt2">
+                <img src="https://avatars.githubusercontent.com/u/18014107?s=280&v=4" alt="" width="10%">
+                <pre>
+© Copyright 2025
+Abstract Studio Design, Inc.
+All rights reserved
+                    </pre>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
